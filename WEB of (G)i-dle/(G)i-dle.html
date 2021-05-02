@@ -3,25 +3,60 @@
     <head>
         <title>(G)i-dle</title>
         <meta charset="utf-8">
+        <style>
+            body {
+                margin: 0;
+            }
+            a {
+                color:black;
+                text-decoration: none;
+            }
+            h1 {
+                font-size:60px;
+                text-align: center;
+                border-bottom: 1px solid black;
+                margin:0;
+                padding-bottom:10px;
+            }
+            ul {
+                border-right: 1px solid black;
+                width: 150px;
+                margin: 0;
+                padding: 20px;
+            }
+            #grid-1{
+                display: grid;
+                grid-template-columns: 190px 1fr;
+            }
+            #flowers {
+                width: 50%;
+            }
+        </style>
     </head>
     <body>
-        <h1>
-            <a href="(G)i-dle.html">(G)i-dle</a>
-        </h1>
-        <ol>
-            <li><a href="1.idle.html">조미연</a></li>
-            <li><a href="2.idle.html">니차욘 따라락(민니)</a></li>
-            <li><a href="3.idle.html">전소연</a></li>
-            <li><a href="4.idle.html">송우기</a></li>
-            <li><a href="5.idle.html">예슈화</a></li>
-        </ol>
-        <h4>
-            <a href="https://www.youtube.com/channel/UCritGVo7pLJLUS8wEu32vow", target="_blank", title="(여자)아이들 공식 유튜브">(여자)아이들</a>은 큐브엔터테인먼트 소속의 6인조 다국적 걸그룹이다. 
-            <strong>2018년 5월 2일 미니앨범 <u>"I am"</u>으로 데뷔하였으며,</strong> CLC의 직계 후배격인 걸그룹으로 큐브엔터테인먼트가 CLC 이 후로 3년 만에 내놓은 걸그룹이다. 
-            데뷔 초부터 흔치 않은 컨셉으로 인기몰이를 하며 데뷔 후 활동 20일 만에 음악 방송 1위, 음원 차트 상위권, 신인상 7관왕을 차지할만큼 괴물 신인이었고,
-            라이엇게임즈의 이벤트성 그룹 K/DA 콜라보 활동 등을 통해 탄탄한 해외 팬덤을 가지고 있다.
-            <br/>또한 컴백전쟁: 퀸덤에서 보여준 막내 걸그룹 답지 않은 존재감과 무대 퍼포먼스, 뛰어난 실력을 기점으로 국내 팬덤 규모 또한 크게 성장하게 되면서 대세 걸그룹 중 한 팀으로 자리잡았다.[2]
-        </h4>
-        <img src="./(여자)아이들.PNG", width = "100%"/>
+            <h1>
+                <a href="(G)i-dle.html">(G)i-dle</a>
+            </h1>
+        <div id="grid-1">
+            <ul>
+                <li><a href="1.idle.html" title="미하에 대하여">조미연</a></li>
+                <li><a href="2.idle.html" title="튀밥냥에 대하여">니차욘 따라락(민니)</a></li>
+                <li><a href="3.idle.html" title="전땃쥐에 대하여">전소연</a></li>
+                <li><a href="4.idle.html" title="북경 강아지에 대하여">송우기</a></li>
+                <li><a href="5.idle.html" title="예왕사자에 대하여">예슈화</a></li>
+            </ul>
+            <div>
+                <h4>
+                    <a href="https://www.youtube.com/channel/UCritGVo7pLJLUS8wEu32vow", target="_blank", title="(여자)아이들 공식 유튜브">(여자)아이들</a>은 큐브엔터테인먼트 소속의 6인조 다국적 걸그룹이다. 
+                    <strong>2018년 5월 2일 미니앨범 <u>"I am"</u>으로 데뷔하였으며,</strong> CLC의 직계 후배격인 걸그룹으로 큐브엔터테인먼트가 CLC 이 후로 3년 만에 내놓은 걸그룹이다. 
+                    데뷔 초부터 흔치 않은 컨셉으로 인기몰이를 하며 데뷔 후 활동 20일 만에 음악 방송 1위, 음원 차트 상위권, 신인상 7관왕을 차지할만큼 괴물 신인이었고,
+                    라이엇게임즈의 이벤트성 그룹 K/DA 콜라보 활동 등을 통해 탄탄한 해외 팬덤을 가지고 있다.
+                    <br/>또한 컴백전쟁: 퀸덤에서 보여준 막내 걸그룹 답지 않은 존재감과 무대 퍼포먼스, 뛰어난 실력을 기점으로 국내 팬덤 규모 또한 크게 성장하게 되면서 대세 걸그룹 중 한 팀으로 자리잡았다.
+                </h4>
+                <img id="flowers" src="./(여자)아이들.PNG"/>
+            </div>
+
+        </div>
+        
     </body>
-</html>
+</html> 
